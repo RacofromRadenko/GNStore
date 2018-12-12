@@ -10,7 +10,7 @@ const StoreFront = (props) => {
                 return (
 
                     <div className="gc-card" key={element.id} id={element.id}>
-                        <Product productData={element}/>
+                        <Product productData={element} {...props} />
 
                     </div>
 
